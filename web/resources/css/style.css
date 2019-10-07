@@ -1,0 +1,216 @@
+#loginpanel {
+	width: 470px;
+	height: 120px;
+	background-color: buttonface;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+#loginlogo {
+	position: absolute;
+	top: 380px;
+	left: 600px;
+}
+
+#login {
+	position: relative;
+	left: 5px;
+	bottom: 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#registerpanel {
+	width: 470px;
+	height: 120px;
+	background-color: buttonface;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+#registerlogo {
+	position: absolute;
+	top: 380px;
+	left: 800px;
+}
+
+#register {
+	position: relative;
+	left: 5px;
+	bottom: 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#title {
+	position: relative;
+	background-color: #6E2A37;
+	color: white;
+	padding: 5px;
+	margin: 1px;
+	font-size: 30px;
+}
+
+#explanation {
+	position: relative;
+	background-color: #BA475E;
+	color: white;
+	padding: 5px;
+	margin: 1px;
+	font-size: 13px;
+}
+
+#menu {
+	position: relative;
+	background-color: #BABABA;
+	color: gray;
+	margin-bottom: 1px;
+}
+
+#menu li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 2px;
+}
+
+#nav {
+	margin: 0;
+	padding: 0;
+	background: #454545 0 0 repeat-x;
+	float: left;
+	width: 100%;
+}
+
+#nav a:link,
+#nav a:visited {
+	color: white;
+	background: #454545;
+	padding: 20px 40px 4px 10px;
+	float: left;
+	width: auto;
+	border-right: 1px solid white;
+	text-decoration: none;
+	font: bold 1em/1em Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+#left {
+	position: absolute;
+	left: 0px;
+	width: 240px;
+	margin-top: 36px;
+	padding: 0px;
+	padding-bottom: 50px;
+	padding-left: 9px;
+	padding-top: 10px;
+	float: left;
+	background-color: #DDDDDD;
+	height: inherit;
+	border: 1px solid black;
+}
+
+#content {
+	background-color: white;
+	margin-top: 36px;
+	margin-left: 250px;
+	border-left: 1px solid #564b47;
+	border-right: 1px solid #564b47;
+	padding: 13px;
+}
+
+#list {
+	background-color: #ddd;
+	margin: 0px 0px 0px 0px;
+	padding: 3px;
+	padding: 30px;
+	height: auto;
+	width: auto;
+	border: 1px solid black;
+}
+
+#left ul {
+	display: inline;
+	list-style-type: none;
+}
+
+#left li, li a {
+	color:  #BA475E;
+	font-weight : bold;
+	text-decoration: none;
+	padding-right: 5px;
+}
+
+#left li a:link:hover {
+	color: red;
+	font-weight : bold;
+	text-decoration: underline;
+}
+
+body {
+	background-color: buttonface;
+	font-size: 12px;
+	font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+	color: #000000;
+	margin: 0px;
+}
+
+h1 {
+	font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+	border-bottom: 1px solid #AFAFAF;
+	font-size:  16px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	color: #D20005;
+}
+
+a:link, a:visited {
+	color:  #BA475E;
+	font-weight : bold;
+	text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+	color: red;
+	font-weight : bold;
+	text-decoration: underline;
+}
+
+table.blog {
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	color: #fff;
+	background-color: #666;
+	border-collapse: collapse;
+	border: 1px black solid;
+}
+
+table.blog td {
+	background-color: #CCC;
+	color: #000;
+	padding: 4px;
+	text-align: left;
+	border: 1px black solid;
+}
+
+.tableHead {
+	background-color: #555;
+	color: white;
+	padding: 4px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.colHead {
+	background-color: #666;
+	color: white;
+	padding: 4px;
+	font-weight: bold;
+	text-align: center;
+}
